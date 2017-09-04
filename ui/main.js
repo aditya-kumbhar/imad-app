@@ -11,7 +11,7 @@ function moveRight()
 img.onclick = function()
 {
     // var inter = setInterval(moveRight,100);
-    var name = "Mayu";
+    var name = "Tai";
 	var i = 0;
 	while (i < 2) {
 		bday.innerHTML+=("Happy Birthday to you.<br>");
