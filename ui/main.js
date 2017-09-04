@@ -15,7 +15,7 @@ img.onclick = function()
 	var i = 0;
 
 	while (i < 2) {
-	    	var timer = setTimeout(bday.innerHTML+=("Happy Birthday to you.<br>"),1000);
+	    	var timer = setTimeout(bday.innerHTML+=("Happy Birthday to you.<br>"),5000);
 		i = i + 1;
 	}
 	
