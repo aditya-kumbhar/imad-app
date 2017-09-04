@@ -4,7 +4,7 @@ var inc = 0;
 
 function moveRight()
 {
-    inc = inc + 10;
+    inc = inc + 5;
     bday.style.marginLeft = inc + 'px';
     
 }
@@ -17,7 +17,7 @@ img.onclick = function()
 		i = i + 1;
 	}
 	
-	bday.innerHTML+=("Happy Birthday dear " + name + ",<br>");
+	bday.innerHTML+=("Happy Birthday dear Tai <br>");
 	bday.innerHTML+=("Happy Birthday to you.<br>"); 
 	
 	var inter = setInterval(moveRight,100);
