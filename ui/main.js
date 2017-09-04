@@ -4,7 +4,7 @@ var inc = 0;
 
 function moveRight()
 {
-    inc = inc + 20;
+    inc = inc + 10;
     img.style.marginLeft = inc + 'px';
     
 }
