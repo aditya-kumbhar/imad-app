@@ -4,7 +4,7 @@ var inc = 0;
 
 function moveRight()
 {
-    if(inc<510)
+    if(inc<300)
     {
         inc = inc + 1;
         bday.style.marginLeft = inc + 'px';
