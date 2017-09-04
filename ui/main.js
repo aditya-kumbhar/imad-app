@@ -14,11 +14,11 @@ img.onclick = function()
     var name = "Tai";
 	var i = 0;
 
-	while (i < 2) {
+//	while (i < 2) {
 	    	var timer = setTimeout(bday.innerHTML+=("Happy Birthday to you.<br>"),5000);
-		i = i + 1;
-	}
+//		i = i + 1;
+//	}
 	
-	bday.innerHTML+=("Happy Birthday dear " + name + ",<br>");
-	bday.innerHTML+=("Happy Birthday to you.<br>");  
+//	bday.innerHTML+=("Happy Birthday dear " + name + ",<br>");
+//	bday.innerHTML+=("Happy Birthday to you.<br>");  
 }
