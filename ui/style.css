@@ -19,8 +19,10 @@ body {
 .img-medium {
     height: 200px;
 }
-.my-class {
-display: none;
+.my_text {
+    font-size: 200%;
+    font-family: cursive;
+    color: red;
 }
 .container {
     margin: 0 auto;
