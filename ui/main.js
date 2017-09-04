@@ -4,8 +4,12 @@ var inc = 0;
 
 function moveRight()
 {
-    inc = inc + 5;
-    bday.style.marginLeft = inc + 'px';
+    if(inc<500)
+    {
+        inc = inc + 5;
+        bday.style.marginLeft = inc + 'px';
+        
+    }
     
 }
 img.onclick = function()
@@ -18,7 +22,7 @@ img.onclick = function()
 	
 	bday.innerHTML+=("Happy Birthday dear Tai <br>");
 	bday.innerHTML+=("Happy Birthday to you.<br>"); 
-	while(inc<500)
+
 	var inter = setInterval(moveRight,100);
     
 	
