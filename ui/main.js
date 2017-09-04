@@ -10,17 +10,16 @@ function moveRight()
 }
 img.onclick = function()
 {
-    
-
+    var i = 0;
 	while (i < 2) {
-	    	var timer = setTimeout(bday.innerHTML+=("Happy Birthday to you.<br>"),5000);
+	    bday.innerHTML+=("Happy Birthday to you.<br>");
 		i = i + 1;
 	}
 	
 	bday.innerHTML+=("Happy Birthday dear Tai <br>");
 	bday.innerHTML+=("Happy Birthday to you.<br>"); 
-	
+	while(inc<500)
 	var inter = setInterval(moveRight,100);
-    var name = "Tai";
-	var i = 0;
+    
+	
 }
